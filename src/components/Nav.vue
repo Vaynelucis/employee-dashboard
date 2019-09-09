@@ -6,7 +6,7 @@
       <h5>BOARDASH</h5>
     </div>
     <div class="col m6">
-      <input class="browser-default" type="text" placeholder="Search message, people, ticket">
+      <input class="search" type="text" placeholder="Search message, people, ticket">
     </div>
     <div class="col m2">
       <p>Set Alert</p>
