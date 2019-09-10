@@ -5,8 +5,18 @@
     <div class="col m2">
       <h5>BOARDASH</h5>
     </div>
-    <div class="col m6">
-      <input class="search" type="text" placeholder="Search message, people, ticket">
+    <div class="input-field col m6">
+      <!-- <span> -->
+      <input
+        class="browser-default"
+        id="search"
+        name="search"
+        type="text"
+        placeholder="Search message, people, ticket"
+      >
+      <!-- <label for="search" class="prefix">Search</label> -->
+      <button>search</button>
+      <!-- </span> -->
     </div>
     <div class="col m2">
       <p>Set Alert</p>
