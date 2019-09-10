@@ -217,14 +217,27 @@ body {
         }
 
 
+        .button {
+            height: 36px;
+            border: .5px solid #999;
+            // background-color: white;
+            padding: 0 20px;
+
+
+
+            // line-height: 36px;
+            // text-align: center;
+            // vertical-align: middle !important;
+        }
+
         .button-group {
             display: flex;
 
-            .button {
-                height: 36px;
-                // line-height: 36px;
-                // text-align: center;
-                // vertical-align: middle !important;
+
+
+            :first-child {
+                border-right: none !important;
+
             }
         }
     }

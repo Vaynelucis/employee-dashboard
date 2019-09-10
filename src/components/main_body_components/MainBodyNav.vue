@@ -31,11 +31,11 @@
       </ul>-->
     </div>
     <div class="col m1">
-      <button class="btn">All</button>
+      <button class="button">All</button>
     </div>
     <div class="col m2 button-group">
       <button class="button">Unread</button>
-      <button class>Important</button>
+      <button class="button">Important</button>
     </div>
   </div>
 </template>
