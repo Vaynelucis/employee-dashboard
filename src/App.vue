@@ -5,7 +5,10 @@
     <Nav/>
     <div class="row body">
       <div class="col m3">
-        <sidebar/>
+        <Sidebar/>
+      </div>
+      <div class="col m8">
+        <MainBody/>
       </div>
     </div>
   </div>
@@ -15,6 +18,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import Nav from "./components/Nav.vue";
 import Sidebar from "./components/Sidebar.vue";
+import MainBody from "./components/MainBody.vue";
 import "./styles/style.css";
 
 export default {
@@ -22,7 +26,8 @@ export default {
   components: {
     HelloWorld,
     Nav,
-    Sidebar
+    Sidebar,
+    MainBody
   }
 };
 </script>
