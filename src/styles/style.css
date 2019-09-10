@@ -120,6 +120,8 @@
 .sidebar header {
   background-color: white;
   width: 100%;
+  -webkit-box-shadow: 2px -1px 3px #bbb;
+          box-shadow: 2px -1px 3px #bbb;
 }
 
 .sidebar header .sidebar-header {
@@ -163,6 +165,8 @@
 
 .sidebar .sidebar-body {
   background-color: white;
+  -webkit-box-shadow: 2px 2px 2px #bbb;
+          box-shadow: 2px 2px 2px #bbb;
   width: 100%;
   margin: 2px 0;
 }
