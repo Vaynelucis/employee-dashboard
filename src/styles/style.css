@@ -4,14 +4,26 @@
           box-sizing: border-box;
 }
 
-#search {
+#search-container {
   border: 2px solid red;
-  padding: 12px 20px;
-  width: 80%;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   /* margin: 20 0px; */
 }
 
+#search-container input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 10px;
+}
+
 #search-btn {
-  padding: 12px 20px;
+  border: 2px solid black;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
 }
 /*# sourceMappingURL=style.css.map */

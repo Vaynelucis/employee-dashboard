@@ -5,7 +5,7 @@
     <div class="col m2">
       <h5>BOARDASH</h5>
     </div>
-    <div class="input-field col m6">
+    <div id="search-container" class="input-field col m6">
       <!-- <span> -->
       <input
         class="browser-default"
@@ -15,7 +15,9 @@
         placeholder="Search message, people, ticket"
       >
       <!-- <label for="search" class="prefix">Search</label> -->
-      <button id="search-btn">search</button>
+      <button class="browser-default" id="search-btn">
+        <i class="sm material-icons">search</i>
+      </button>
       <!-- </span> -->
     </div>
     <div class="col m2">
