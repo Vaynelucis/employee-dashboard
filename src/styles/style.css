@@ -15,7 +15,7 @@
 }
 
 .my-nav #search-container {
-  border: 2px solid #eceff1;
+  border: 1px solid #eceff1;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,5 +192,31 @@
 
 .sidebar .sidebar-body #logout {
   margin-top: 40px;
+}
+
+.main-body .main-body-nav .my-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.2em;
+}
+
+.main-body .main-body-nav .my-pagination p {
+  padding-bottom: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.main-body .main-body-nav .button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-body .main-body-nav .button-group .button {
+  height: 36px;
 }
 /*# sourceMappingURL=style.css.map */
