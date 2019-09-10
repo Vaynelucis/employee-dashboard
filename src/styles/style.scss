@@ -123,6 +123,10 @@ body {
 
     margin: 20px;
     // justify-items: center;
+    max-width: 232px;
+    min-width: 200px;
+
+    ;
 
     header {
         // flex: 1;
@@ -253,8 +257,9 @@ body {
         display: flex;
         flex-wrap: wrap;
         // max-height: 120px;
-        // width: 100%;
+        width: 100%;
         background-color: aqua;
+        padding: 12px 0;
         align-items: center;
         // vertical-align: middle;
         // text-align: center;
@@ -264,12 +269,13 @@ body {
             display: flex;
             align-items: center;
             // flex: 1;
-            max-height: 80px;
+            max-height: 70px;
 
             img {
                 // position: absolute;
-                width: 80px;
+                width: 78px;
                 height: auto;
+                // max-height: 70px;
 
             }
 
@@ -278,13 +284,38 @@ body {
             }
 
             p {
-                margin: 0;
+                margin: 2px 0;
             }
         }
+
+
 
         .participants {
             display: flex;
             align-items: center;
+
+            #more {
+                margin-left: 12px;
+            }
+        }
+
+        .invitation button {
+            border: 1px solid white;
+            padding: 8px 16px;
+            background-color: transparent;
+        }
+
+        .join-call {
+            display: flex;
+            // justify-self: flex-start;
+            margin-right: 24px;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid white;
+            // padding: 8px 8px;
+            background-color: transparent;
+            max-width: 138px;
+            height: 34px;
         }
     }
 

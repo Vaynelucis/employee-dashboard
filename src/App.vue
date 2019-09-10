@@ -4,10 +4,10 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App "/> -->
     <Nav/>
     <div class="row body">
-      <div class="col m3">
+      <div class="col">
         <Sidebar/>
       </div>
-      <div class="col m8">
+      <div class="col m9">
         <MainBody/>
       </div>
     </div>

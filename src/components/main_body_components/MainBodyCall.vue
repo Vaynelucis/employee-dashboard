@@ -1,6 +1,6 @@
 <template>
   <div class="row main-body-call">
-    <div class="col m6 call-banner">
+    <div class="col m5 call-banner">
       <img class="circle" src="../../assets/logo.png" alt>
       <div>
         <h6>Sales Presentation - Live Group Call</h6>
@@ -13,8 +13,10 @@
       <p>K</p>
       <p>D</p>
       <p>V</p>
+
+      <p id="more">+5 more</p>
     </div>
-    <div class="col m2 invitation">
+    <div class="col m3 invitation">
       <button>You're Invited</button>
     </div>
     <div class="col m2 join-call">
