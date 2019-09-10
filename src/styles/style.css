@@ -72,4 +72,19 @@
   width: 20px;
   height: 20px;
 }
+
+#user-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#user-profile img {
+  width: 40px;
+  height: 40px;
+  margin: 0 12px;
+}
 /*# sourceMappingURL=style.css.map */

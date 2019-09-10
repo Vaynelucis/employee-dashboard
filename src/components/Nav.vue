@@ -20,13 +20,14 @@
       </button>
       <!-- </span> -->
     </div>
-    <div class="col m2">
-      <span id="alert-icon">
-        <img src="../assets/alert.svg" alt>
-        <p>Set Alert</p>
-      </span>
+    <div id="alert-icon" class="col m2">
+      <!-- <span > -->
+      <img src="../assets/alert.svg" alt>
+      <p>Set Alert</p>
+      <!-- </span> -->
     </div>
-    <div class="col m2">
+    <div id="user-profile" class="col m2">
+      <img class="circle" src="../assets/logo.png" alt>
       <p>username</p>
     </div>
   </div>
