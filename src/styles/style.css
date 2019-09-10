@@ -5,11 +5,12 @@
 }
 
 #search-container {
-  border: 2px solid red;
+  border: 2px solid #666;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 8px;
   /* margin: 20 0px; */
 }
 
@@ -19,6 +20,7 @@
           flex: 1;
   padding-left: 10px;
   border: none;
+  border-radius: 6px;
 }
 
 #search-btn {
@@ -29,6 +31,7 @@
   max-width: 92px;
   min-width: 40px;
   border: none;
+  border-radius: 0 6px 6px 0;
 }
 
 #search-btn i {
