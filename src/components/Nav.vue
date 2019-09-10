@@ -15,7 +15,7 @@
         placeholder="Search message, people, ticket"
       >
       <!-- <label for="search" class="prefix">Search</label> -->
-      <button>search</button>
+      <button id="search-btn">search</button>
       <!-- </span> -->
     </div>
     <div class="col m2">
