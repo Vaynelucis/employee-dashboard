@@ -1,6 +1,6 @@
 <template>
   <div class="row main-body-nav">
-    <div class="col m6">
+    <div class="col m5">
       <h5>Messages</h5>
     </div>
     <div class="col m3">
