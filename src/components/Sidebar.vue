@@ -1,11 +1,44 @@
 <template>
-  <div class="sidebar">
+  <section class="sidebar">
     <header>
-      <img class="sidebar-header" src="../assets/logo.png" alt>
-      <div class>
-        <h6>Welcome Essie</h6>
-        <p>Super Admin</p>
+      <div class="sidebar-header">
+        <img class src="../assets/logo.png" alt>
+        <div class="sidebar-header-welcome">
+          <h6>Welcome Essie</h6>
+          <p>Super Admin</p>
+        </div>
       </div>
     </header>
-  </div>
+
+    <section class="sidebar-body">
+      <div class="sidebar-item">
+        <span>icon</span>
+        <p>Overview</p>
+      </div>
+      <div class="sidebar-item">
+        <span>icon</span>
+        <p>Reservation</p>
+      </div>
+      <div class="sidebar-item">
+        <span>icon</span>
+        <p>Meeting</p>
+      </div>
+      <div class="sidebar-item">
+        <span>icon</span>
+        <p>Customers</p>
+      </div>
+      <div class="sidebar-item">
+        <span>icon</span>
+        <p>tickets</p>
+      </div>
+      <div class="sidebar-item">
+        <span>icon</span>
+        <p>Message</p>
+      </div>
+      <div class="sidebar-item">
+        <span>icon</span>
+        <p>Profile</p>
+      </div>
+    </section>
+  </section>
 </template>
