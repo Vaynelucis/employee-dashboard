@@ -234,6 +234,7 @@
 }
 
 .main-body .main-body-call {
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,6 +288,8 @@
   border: 1px solid white;
   padding: 8px 16px;
   background-color: transparent;
+  border-radius: 4px;
+  color: white;
 }
 
 .main-body .main-body-call .join-call {
@@ -301,8 +304,10 @@
       -ms-flex-pack: center;
           justify-content: center;
   border: 1px solid white;
-  background-color: transparent;
+  border-radius: 4px;
+  background-color: white;
   max-width: 138px;
   height: 34px;
+  color: #555;
 }
 /*# sourceMappingURL=style.css.map */
