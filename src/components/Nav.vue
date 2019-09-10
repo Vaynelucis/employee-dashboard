@@ -21,7 +21,10 @@
       <!-- </span> -->
     </div>
     <div class="col m2">
-      <p>Set Alert</p>
+      <span id="alert-icon">
+        <img src="../assets/alert.svg" alt>
+        <p>Set Alert</p>
+      </span>
     </div>
     <div class="col m2">
       <p>username</p>
