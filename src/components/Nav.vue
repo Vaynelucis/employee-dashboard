@@ -16,7 +16,7 @@
       >
       <!-- <label for="search" class="prefix">Search</label> -->
       <button class="browser-default" id="search-btn">
-        <i class="sm material-icons">search</i>
+        <i class="small material-icons">search</i>
       </button>
       <!-- </span> -->
     </div>

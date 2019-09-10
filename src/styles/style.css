@@ -18,12 +18,20 @@
       -ms-flex: 1;
           flex: 1;
   padding-left: 10px;
+  border: none;
 }
 
 #search-btn {
-  border: 2px solid black;
-  -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
-      align-self: stretch;
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+  padding: 8px 0;
+  max-width: 92px;
+  min-width: 40px;
+  border: none;
+}
+
+#search-btn i {
+  font-size: 22px;
 }
 /*# sourceMappingURL=style.css.map */
