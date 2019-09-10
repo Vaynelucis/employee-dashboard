@@ -3,7 +3,7 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App "/> -->
     <Nav/>
-    <div class="row">
+    <div class="row body">
       <div class="col m3">
         <sidebar/>
       </div>
