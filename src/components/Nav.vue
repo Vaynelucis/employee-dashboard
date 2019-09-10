@@ -1,7 +1,7 @@
 <template>
   <!-- <nav>
   </nav>-->
-  <div class="row center">
+  <div class="row center my-nav">
     <div class="col m2">
       <h5>BOARDASH</h5>
     </div>

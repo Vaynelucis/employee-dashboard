@@ -3,19 +3,26 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App "/> -->
     <Nav/>
+    <div class="row">
+      <div class="col m3">
+        <sidebar/>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import Nav from "./components/Nav.vue";
+import Sidebar from "./components/Sidebar.vue";
 import "./styles/style.css";
 
 export default {
   name: "app",
   components: {
     HelloWorld,
-    Nav
+    Nav,
+    Sidebar
   }
 };
 </script>
