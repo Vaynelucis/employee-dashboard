@@ -29,6 +29,7 @@
     <div id="user-profile" class="col m2">
       <img class="circle" src="../assets/logo.png" alt>
       <p>username</p>
+      <img id="plus" src="../assets/plus.svg" alt>
     </div>
   </div>
 </template>
