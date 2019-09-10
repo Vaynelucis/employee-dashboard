@@ -186,4 +186,8 @@
 .sidebar .sidebar-body .sidebar-item span {
   margin: 8px;
 }
+
+.sidebar .sidebar-body #logout {
+  margin-top: 40px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -176,6 +176,8 @@ body {
         width: 100%;
         margin: 2px 0;
 
+
+
         .sidebar-item {
             display: flex;
             align-items: center;
@@ -186,6 +188,13 @@ body {
                 margin: 8px;
 
             }
+        }
+
+        #logout {
+            // align-items: flex-end;
+            margin-top: 40px;
+            // position: relative;
+            // bottom: 2px;
         }
     }
 }

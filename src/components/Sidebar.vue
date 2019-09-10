@@ -39,6 +39,10 @@
         <span>icon</span>
         <p>Profile</p>
       </div>
+      <div id="logout" class="sidebar-item">
+        <span>icon</span>
+        <p>Logout</p>
+      </div>
     </section>
   </section>
 </template>
