@@ -1,7 +1,7 @@
 <template>
   <div class="row main-body-call">
     <div class="col m5 call-banner">
-      <img class="circle" src="../../assets/logo.png" alt>
+      <img class="circle" src="http://lorempixel.com/400/400/people" alt>
       <div>
         <h6>Sales Presentation - Live Group Call</h6>
         <p>adams_ka@gmail.com</p>
