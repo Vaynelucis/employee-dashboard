@@ -2,7 +2,7 @@
   <section class="sidebar">
     <header>
       <div class="sidebar-header">
-        <img class src="../assets/logo.png" alt>
+        <img class src="http://lorempixel.com/400/200/people" alt>
         <div class="sidebar-header-welcome">
           <h6>Welcome Essie</h6>
           <p>Super Admin</p>

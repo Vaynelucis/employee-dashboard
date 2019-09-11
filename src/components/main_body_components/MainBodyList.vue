@@ -71,6 +71,9 @@ export default {
         }
       ]
     };
+  },
+  mounted() {
+    console.log(chance.string());
   }
 };
 </script>
