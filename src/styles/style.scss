@@ -368,7 +368,7 @@ body {
     .main-body-call {
         color: white;
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
         // max-height: 120px;
         width: 100%;
         background-color: aqua;
@@ -383,13 +383,14 @@ body {
         .call-banner {
             display: flex;
             align-items: center;
-            // flex: 1;
-            max-height: 70px;
+            flex: 3;
+            max-height: 84px;
 
             img {
                 // position: absolute;
                 width: 78px;
                 height: auto;
+                margin: 18px;
                 // max-height: 70px;
 
             }
@@ -408,18 +409,26 @@ body {
         .participants {
             display: flex;
             align-items: center;
+            flex: 1;
+
 
             #more {
                 margin-left: 12px;
             }
         }
 
-        .invitation button {
-            border: 1px solid white;
-            padding: 8px 16px;
-            background-color: transparent;
-            border-radius: 4px;
-            color: white;
+        .invitation {
+
+            flex: 2;
+
+            button {
+                border: 1px solid white;
+                padding: 8px 16px;
+                background-color: transparent;
+                border-radius: 4px;
+                color: white;
+            }
+
         }
 
         .join-call {
@@ -435,6 +444,8 @@ body {
             max-width: 138px;
             height: 34px;
             color: #555;
+            flex: 1;
+
 
             i {
                 margin: 0 8px;
