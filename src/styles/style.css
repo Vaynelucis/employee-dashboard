@@ -148,6 +148,8 @@
           align-items: center;
   width: 80%;
   justify-self: center;
+  min-height: 1vh;
+  position: relative;
 }
 
 .sidebar header {
@@ -205,26 +207,35 @@
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
   width: 100%;
   margin: 2px 0;
+  height: 100%;
 }
 
 .sidebar .sidebar-body .sidebar-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
 }
 
 .sidebar .sidebar-body .sidebar-item span {
-  margin: 8px;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.sidebar .sidebar-body .sidebar-item p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .sidebar .sidebar-body #logout {
-  margin-top: 40px;
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
 }
 
 .main-body .main-body-nav {
@@ -258,6 +269,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .main-body .main-body-nav .button-group :first-child {
