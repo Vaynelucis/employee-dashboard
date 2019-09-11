@@ -8,19 +8,24 @@
         </label>
       </div>
       <div class="col m1 avater">
-        <img class="circle" :src="`http://lorempixel.com/400/400/people/${message.imageNo}`" alt>
+        <img
+          class="circle"
+          :src="`http://lorempixel.com/400/400/people/${message.imageNo}`"
+          alt="Message"
+        >
       </div>
       <div class="col m3 full-name">
         <p>
-          <span>First Name</span>
-          <span>Last Name</span>
+          <span>{{message.firstName}}</span>
+          <span>&nbsp</span>
+          <span>{{message.lastName}}</span>
         </p>
       </div>
       <div class="col m2 status">
-        <p>User Testing</p>
+        <p>{{message.status}}</p>
       </div>
       <div class="col m4 message-intro">
-        <p>Hi james, we need to do user testing by monday, please add me in slack group</p>
+        <p>{{message.message}}</p>
       </div>
       <div class="col m1 menu-icon">
         <p>icon</p>
@@ -35,44 +40,60 @@ export default {
     return {
       messages: [
         {
-          firstName: "john",
-          lastName: "sheperd",
+          firstName: chance.first(),
+          lastName: chance.last(),
+          status: "User Testing",
+          imageNo: chance.integer({ min: 1, max: 10 }),
+          message:
+            "Hi james, we need to do user testing by monday, please add me in the slack group"
+        },
+        {
+          firstName: chance.first(),
+          lastName: chance.last(),
+          status: "Design",
+          imageNo: chance.integer({ min: 1, max: 10 }),
+          message:
+            "Every week, we bring you the stories of people across the globe - Shopify"
+        },
+        {
+          firstName: chance.first(),
+          lastName: chance.last(),
           status: "development",
+          imageNo: chance.integer({ min: 1, max: 10 }),
+          message:
+            "Kaspars Upmanis is now following you. You have a new follower on driibble"
+        },
+        {
+          firstName: chance.first(),
+          lastName: chance.last(),
+          status: "Meeting with Jack",
           imageNo: chance.integer({ min: 1, max: 10 }),
           message:
             "Hi james, we need to do user testing by monday, please add me in slack group"
         },
         {
-          firstName: "john",
-          lastName: "sheperd",
-          status: "development",
+          firstName: chance.first(),
+          lastName: chance.last(),
+          status: "Interview",
           imageNo: chance.integer({ min: 1, max: 10 }),
           message:
-            "Hi james, we need to do user testing by monday, please add me in slack group"
+            "Hi Devan Hope you are well. Haven't heard back from you. Are you still interested in the role?"
         },
         {
-          firstName: "john",
-          lastName: "sheperd",
-          status: "development",
+          firstName: chance.first(),
+          lastName: chance.last(),
+          status: "Slack",
           imageNo: chance.integer({ min: 1, max: 10 }),
           message:
-            "Hi james, we need to do user testing by monday, please add me in slack group"
+            "Hi Devan Hope you are well. Haven't heard back from you. Are you still interested in the role?"
         },
         {
-          firstName: "john",
-          lastName: "sheperd",
-          status: "development",
+          firstName: chance.first(),
+          lastName: chance.last(),
+          status: "Gmail team",
           imageNo: chance.integer({ min: 1, max: 10 }),
           message:
-            "Hi james, we need to do user testing by monday, please add me in slack group"
-        },
-        {
-          firstName: "john",
-          lastName: "sheperd",
-          status: "development",
-          imageNo: chance.integer({ min: 1, max: 10 }),
-          message:
-            "Hi james, we need to do user testing by monday, please add me in slack group"
+            "In this digital generation where information can be easily obtained within seeconds..."
         }
       ]
     };
