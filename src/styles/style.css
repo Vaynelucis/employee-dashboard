@@ -337,9 +337,17 @@
           align-items: center;
 }
 
+.main-body .main-body-message .message .message-icon {
+  background-color: rgba(161, 188, 230, 0.596);
+  padding: 8%;
+  border: 1px solid #a1bbe6;
+  border-radius: 50%;
+}
+
 .main-body .main-body-message .message img {
-  width: 44px;
+  width: 22px;
   height: auto;
+  vertical-align: middle;
 }
 
 .main-body .main-body-message .message div {

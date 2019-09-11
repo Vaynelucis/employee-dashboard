@@ -364,9 +364,19 @@ body {
             display: flex;
             align-items: center;
 
+            .message-icon {
+                background-color: rgba(161, 188, 230, 0.596);
+                padding: 8%;
+                border: 1px solid rgb(161, 187, 230);
+                border-radius: 50%;
+                // text-align: center;
+
+            }
+
             img {
-                width: 44px;
+                width: 22px;
                 height: auto;
+                vertical-align: middle;
             }
 
             div {

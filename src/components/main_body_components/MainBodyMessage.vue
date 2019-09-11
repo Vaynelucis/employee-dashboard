@@ -1,7 +1,9 @@
 <template>
   <div class="row main-body-message">
     <div class="col m4 message">
-      <img class src="../../assets/chat.svg" alt>
+      <span class="message-icon">
+        <img src="../../assets/chat.svg" alt>
+      </span>
       <div>
         <span>Overall Messages</span>
         <h6>
