@@ -412,8 +412,7 @@
 .main-body .main-body-message {
   background-color: bisque;
   width: 100%;
-  padding: 12px 8px;
-  padding-right: 16px;
+  padding: 12px 2rem;
   border-radius: 8px;
   border: 1px solid rgba(161, 188, 230, 0.596);
   display: -webkit-box;

@@ -457,8 +457,10 @@ body {
         background-color: bisque;
         width: 100%;
 
-        padding: 12px 8px;
-        padding-right: 16px;
+        // padding: 12px 1.5rem;
+        padding: 12px 2rem;
+        // padding: 12px 20px;
+        // padding-right: 16px;
         border-radius: 8px;
         border: 1px solid rgba(161, 188, 230, 0.596);
 
@@ -478,6 +480,7 @@ body {
             height: 48px;
             // margin-right: 0 10px
             margin: 0 auto;
+            // margin: 0 24%;
         }
 
         // .message::after {
