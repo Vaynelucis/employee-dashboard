@@ -298,9 +298,17 @@ body {
         align-items: center;
         // margin-top: 20px;
         // margin-bottom: 20px;
+        height: 60px;
 
         .nav-heading {
+            // text-align: center;
+            vertical-align: middle;
             flex: 2;
+
+            // align-items: center;
+            h5 {
+                margin: 0;
+            }
         }
 
         .my-pagination {
