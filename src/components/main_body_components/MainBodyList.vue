@@ -1,6 +1,6 @@
 <template>
   <div class="row main-body-list">
-    <div id="individual-message" class="row">
+    <div v-for="(message,index) in messages" :key="index" class="row individual-message">
       <div class="col m1">
         <label>
           <input type="checkbox">
@@ -10,7 +10,7 @@
       <div class="col m1 avater">
         <img src="../../assets/logo.png" alt>
       </div>
-      <div class="col m2 full-name">
+      <div class="col m3 full-name">
         <p>
           <span>First Name</span>
           <span>Last Name</span>
@@ -19,7 +19,7 @@
       <div class="col m2 status">
         <p>User Testing</p>
       </div>
-      <div class="col m5 message-intro">
+      <div class="col m4 message-intro">
         <p>Hi james, we need to do user testing by monday, please add me in slack group</p>
       </div>
       <div class="col m1 menu-icon">
@@ -28,3 +28,49 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      messages: [
+        {
+          firstName: "john",
+          lastName: "sheperd",
+          status: "development",
+          message:
+            "Hi james, we need to do user testing by monday, please add me in slack group"
+        },
+        {
+          firstName: "john",
+          lastName: "sheperd",
+          status: "development",
+          message:
+            "Hi james, we need to do user testing by monday, please add me in slack group"
+        },
+        {
+          firstName: "john",
+          lastName: "sheperd",
+          status: "development",
+          message:
+            "Hi james, we need to do user testing by monday, please add me in slack group"
+        },
+        {
+          firstName: "john",
+          lastName: "sheperd",
+          status: "development",
+          message:
+            "Hi james, we need to do user testing by monday, please add me in slack group"
+        },
+        {
+          firstName: "john",
+          lastName: "sheperd",
+          status: "development",
+          message:
+            "Hi james, we need to do user testing by monday, please add me in slack group"
+        }
+      ]
+    };
+  }
+};
+</script>

@@ -380,12 +380,14 @@ body {
         // align-items: center;
         width: 100%;
 
-        #individual-message {
+        .individual-message {
             display: flex;
             width: 100%;
             background-color: aqua;
             align-items: center;
             flex-wrap: wrap;
+            margin: 0;
+            margin-bottom: 1px;
             // overflow: hidden;
 
             img {
@@ -394,8 +396,15 @@ body {
             }
 
             // flex: 1;
+            .status p {
+                border: 1px solid #888;
+                text-align: center;
+                padding: 4px 0;
+                background-color: #eaeaf3;
+            }
 
             .message-intro p {
+
                 @media screen and (max-width:400px) {
                     width: auto;
                     max-width: 72px;
