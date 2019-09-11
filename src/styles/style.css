@@ -4,12 +4,6 @@
           box-sizing: border-box;
 }
 
-* #radio {
-  width: 30px;
-  height: 30px;
-  background-color: red;
-}
-
 .body {
   background-color: #eaeaf3;
 }
@@ -359,6 +353,10 @@
   color: #999;
 }
 
+.main-body .main-body-list {
+  width: 100%;
+}
+
 .main-body .main-body-list #individual-message {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -368,10 +366,25 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .main-body .main-body-list #individual-message img {
   height: auto;
   width: 40px;
+}
+
+.main-body .main-body-list #individual-message .message-intro p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 400px) {
+  .main-body .main-body-list #individual-message .message-intro p {
+    width: auto;
+    max-width: 72px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

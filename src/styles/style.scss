@@ -2,12 +2,7 @@
     /* color: red; */
     box-sizing: border-box;
 
-    #radio {
-        width: 30px;
-        height: 30px;
 
-        background-color: red;
-    }
 
 
     // background-color: blanchedalmond;
@@ -383,16 +378,35 @@ body {
 
     .main-body-list {
         // align-items: center;
+        width: 100%;
 
         #individual-message {
             display: flex;
             width: 100%;
             background-color: aqua;
             align-items: center;
+            flex-wrap: wrap;
+            // overflow: hidden;
 
             img {
                 height: auto;
                 width: 40px;
+            }
+
+            // flex: 1;
+
+            .message-intro p {
+                @media screen and (max-width:400px) {
+                    width: auto;
+                    max-width: 72px;
+                }
+
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                // }
+
+
             }
 
             div {
