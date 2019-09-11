@@ -2,7 +2,7 @@
   <section class="sidebar">
     <header>
       <div class="sidebar-header">
-        <img class src="http://lorempixel.com/400/400/people" alt>
+        <img class :src="`http://lorempixel.com/400/400/people/${currentUser.avaterID}`" alt>
         <div class="sidebar-header-welcome">
           <h6>Welcome {{currentUser.firstName}}</h6>
           <p>Super Admin</p>
