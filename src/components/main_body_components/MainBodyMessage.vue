@@ -27,7 +27,9 @@
     </div>
     <div class="col m4 message">
       <span class="line"></span>
-      <img class src="../../assets/reply.svg" alt>
+      <span class="message-icon">
+        <img class src="../../assets/reply.svg" alt>
+      </span>
       <div>
         <span>Overall Messages</span>
         <h6>
