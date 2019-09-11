@@ -8,7 +8,7 @@
         </label>
       </div>
       <div class="col m1 avater">
-        <img src="../../assets/logo.png" alt>
+        <img src="http://lorempixel.com/400/400/people/9" alt>
       </div>
       <div class="col m3 full-name">
         <p>
