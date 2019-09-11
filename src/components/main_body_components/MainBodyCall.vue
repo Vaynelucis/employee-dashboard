@@ -1,5 +1,6 @@
 <template>
-  <div class="row main-body-call">
+  <!-- <div class="row main-body-call"> -->
+  <div class="main-body-call">
     <!-- <div class="col m5 call-banner"> -->
     <div class="call-banner">
       <img class="circle" src="http://lorempixel.com/400/400/people" alt>

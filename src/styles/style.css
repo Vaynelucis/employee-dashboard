@@ -324,6 +324,7 @@
           align-items: center;
   border-radius: 8px;
   border: 1px solid rgba(161, 188, 230, 0.596);
+  margin-bottom: 16px;
 }
 
 .main-body .main-body-call .call-banner {
@@ -418,6 +419,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 16px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .main-body .main-body-message .line {
