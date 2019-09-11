@@ -9,6 +9,9 @@
       </div>
       <div class="col m9">
         <MainBody/>
+        <a class="btn-floating btn-large waves-effect waves-light red fab">
+          <i class="material-icons">add</i>
+        </a>
       </div>
     </div>
   </div>

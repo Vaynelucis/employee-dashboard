@@ -398,4 +398,10 @@
     max-width: 72px;
   }
 }
+
+.fab {
+  position: fixed;
+  right: 16px;
+  bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */
