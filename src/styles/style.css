@@ -12,11 +12,27 @@
   -webkit-box-shadow: 0 3px 3px #bbb;
           box-shadow: 0 3px 3px #bbb;
   margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 1fr 100px;
+      grid-template-columns: 200px 1fr 100px;
+}
+
+.my-nav div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 200px 200px;
+      grid-template-columns: 1fr 200px 200px;
+}
+
+.my-nav .logo h5 {
+  margin: 0;
 }
 
 .my-nav #search-container {
   border: 1px solid #eceff1;
   padding: 0;
+  margin-left: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,7 +114,7 @@
   margin: 0 12px;
 }
 
-.my-nav #user-profile #plus {
+.my-nav #plus {
   width: 24px;
   height: 24px;
 }
@@ -122,8 +138,8 @@
 .sidebar header {
   background-color: white;
   width: 100%;
-  -webkit-box-shadow: 2px -1px 3px #bbb;
-          box-shadow: 2px -1px 3px #bbb;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
   padding: 10px;
 }
 
@@ -170,8 +186,8 @@
 
 .sidebar .sidebar-body {
   background-color: white;
-  -webkit-box-shadow: 2px 2px 2px #bbb;
-          box-shadow: 2px 2px 2px #bbb;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
   width: 100%;
   margin: 2px 0;
 }
@@ -246,6 +262,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 8px;
+  border: 1px solid rgba(161, 188, 230, 0.596);
 }
 
 .main-body .main-body-call .call-banner {
@@ -320,6 +338,8 @@
   width: 100%;
   padding: 12px 8px;
   padding-right: 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(161, 188, 230, 0.596);
 }
 
 .main-body .main-body-message .line {
@@ -339,7 +359,7 @@
 
 .main-body .main-body-message .message .message-icon {
   background-color: rgba(161, 188, 230, 0.596);
-  padding: 8%;
+  padding: 28px;
   border: 1px solid #a1bbe6;
   border-radius: 50%;
 }
@@ -382,6 +402,7 @@
       flex-wrap: wrap;
   margin: 0;
   margin-bottom: 1px;
+  border: 1px solid rgba(161, 188, 230, 0.596);
 }
 
 .main-body .main-body-list .individual-message img {
