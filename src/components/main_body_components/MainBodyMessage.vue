@@ -14,7 +14,9 @@
       <span class="line"></span>
     </div>
     <div class="col m4 message">
-      <img class="circle" src="../../assets/logo.png" alt>
+      <span class="message-icon">
+        <img class="circle" src="../../assets/sent.svg" alt>
+      </span>
       <div>
         <span>Overall Messages</span>
         <h6>
