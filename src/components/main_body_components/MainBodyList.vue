@@ -8,7 +8,7 @@
         </label>
       </div>
       <div class="col m1 avater">
-        <img :src="`http://lorempixel.com/400/400/people/${message.imageNo}`" alt>
+        <img class="circle" :src="`http://lorempixel.com/400/400/people/${message.imageNo}`" alt>
       </div>
       <div class="col m3 full-name">
         <p>
@@ -78,7 +78,7 @@ export default {
     };
   },
   mounted() {
-    console.log(chance.integer({ min: 1, max: 10 }));
+    // console.log(chance.integer({ min: 1, max: 10 }));
   }
 };
 </script>

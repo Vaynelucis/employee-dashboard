@@ -31,6 +31,16 @@ export default {
     Nav,
     Sidebar,
     MainBody
+  },
+  data() {
+    return {
+      currentUser: {
+        firstName: chance.first(),
+        lastName: chance.last(),
+        role: "Super Admin",
+        avaterID: chance.integer({ min: 1, max: 10 })
+      }
+    };
   }
 };
 </script>
