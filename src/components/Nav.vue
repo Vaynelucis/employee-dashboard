@@ -33,7 +33,11 @@
       </div>
       <!-- <div id="user-profile" class="col m2"> -->
       <div id="user-profile" class>
-        <img class="circle" src="http://lorempixel.com/400/400/people" alt>
+        <img
+          class="circle"
+          :src="`http://lorempixel.com/400/400/people/${currentUser.avaterID}`"
+          alt
+        >
         <p>{{currentUser.firstName}} {{currentUser.lastName}}</p>
       </div>
     </div>
