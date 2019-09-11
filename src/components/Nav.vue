@@ -28,8 +28,14 @@
     </div>
     <div id="user-profile" class="col m2">
       <img class="circle" src="http://lorempixel.com/400/400/people" alt>
-      <p>username</p>
+      <p>{{currentUser.firstName}} {{currentUser.lastName}}</p>
       <img id="plus" src="../assets/plus.svg" alt>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: ["currentUser"]
+};
+</script>
