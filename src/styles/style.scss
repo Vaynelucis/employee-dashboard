@@ -462,6 +462,10 @@ body {
         border-radius: 8px;
         border: 1px solid rgba(161, 188, 230, 0.596);
 
+        display: flex;
+        // align-items: center;
+        // justify-content: center;
+
 
         // :nth-of-type(2) {
         //     border-left: 2px solid #555;
@@ -476,10 +480,27 @@ body {
             margin: 0 auto;
         }
 
+        // .message::after {
+        //     width: 20px;
+        //     height: 48px;
+        //     color: red;
+        //     background-color: beige;
+        //     display: inline-block;
+        //     position: relative;
+        //     right: 40px;
+        //     // bottom: 4px;
+        //     content: "";
+
+
+        // }
+
         .message {
 
             display: flex;
             align-items: center;
+            justify-content: center;
+            flex: 1;
+
 
             .message-icon {
                 background-color: rgba(161, 188, 230, 0.596);
