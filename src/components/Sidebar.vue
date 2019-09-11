@@ -4,7 +4,7 @@
       <div class="sidebar-header">
         <img class src="http://lorempixel.com/400/400/people" alt>
         <div class="sidebar-header-welcome">
-          <h6>Welcome Essie</h6>
+          <h6>Welcome {{currentUser.firstName}}</h6>
           <p>Super Admin</p>
         </div>
       </div>
@@ -46,3 +46,9 @@
     </section>
   </section>
 </template>
+
+<script>
+export default {
+  props: ["currentUser"]
+};
+</script>

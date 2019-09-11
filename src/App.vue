@@ -2,10 +2,10 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App "/> -->
-    <Nav/>
+    <Nav :currentUser="currentUser"/>
     <div class="row body">
       <div class="col">
-        <Sidebar/>
+        <Sidebar :currentUser="currentUser"/>
       </div>
       <div class="col m9">
         <MainBody/>
