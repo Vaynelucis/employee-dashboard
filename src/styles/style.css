@@ -18,15 +18,19 @@
       grid-template-columns: 200px 1fr 100px;
 }
 
-.my-nav div {
+.my-nav .nav-grid-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 200px 200px;
       grid-template-columns: 1fr 200px 200px;
 }
 
-.my-nav .logo h5 {
-  margin: 0;
+.my-nav .logo {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .my-nav #search-container {
@@ -117,6 +121,9 @@
 .my-nav #plus {
   width: 24px;
   height: 24px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .sidebar {

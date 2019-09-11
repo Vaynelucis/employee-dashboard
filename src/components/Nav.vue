@@ -8,7 +8,7 @@
       <h5>BOARDASH</h5>
     </div>
     <!-- <div id="search-container" class="input-field col m6"> -->
-    <div>
+    <div class="nav-grid-container">
       <div id="search-container" class="input-field">
         <!-- <span> -->
         <input

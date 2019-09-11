@@ -32,13 +32,21 @@ body {
     grid-template-columns: 200px 1fr 100px;
 
     // align-items: center;
-    div {
+    .nav-grid-container {
         display: grid;
         grid-template-columns: 1fr 200px 200px;
+
     }
 
-    .logo h5 {
-        margin: 0;
+    .logo {
+
+        justify-self: center;
+        align-self: center;
+
+        // h5 {
+        // margin: 0;
+
+        // }
     }
 
     #search-container {
@@ -122,6 +130,7 @@ body {
             margin: 0 12px;
 
 
+
             // object-fit: fill;
         }
 
@@ -130,6 +139,7 @@ body {
     #plus {
         width: 24px;
         height: 24px;
+        align-self: center;
     }
 }
 
