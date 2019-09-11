@@ -4,6 +4,12 @@
           box-sizing: border-box;
 }
 
+* #radio {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
 .body {
   background-color: #eaeaf3;
 }
@@ -351,5 +357,21 @@
   font-weight: 200;
   font-size: 12px;
   color: #999;
+}
+
+.main-body .main-body-list #individual-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: aqua;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-body .main-body-list #individual-message img {
+  height: auto;
+  width: 40px;
 }
 /*# sourceMappingURL=style.css.map */
