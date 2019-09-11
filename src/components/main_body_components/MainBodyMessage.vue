@@ -15,7 +15,7 @@
     </div>
     <div class="col m4 message">
       <span class="message-icon">
-        <img class="circle" src="../../assets/sent.svg" alt>
+        <img class src="../../assets/sent.svg" alt>
       </span>
       <div>
         <span>Overall Messages</span>
@@ -27,7 +27,7 @@
     </div>
     <div class="col m4 message">
       <span class="line"></span>
-      <img class="circle" src="../../assets/logo.png" alt>
+      <img class src="../../assets/reply.svg" alt>
       <div>
         <span>Overall Messages</span>
         <h6>
