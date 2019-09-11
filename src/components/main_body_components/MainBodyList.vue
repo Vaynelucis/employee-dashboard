@@ -8,7 +8,7 @@
         </label>
       </div>
       <div class="col m1 avater">
-        <img src="http://lorempixel.com/400/400/people/9" alt>
+        <img :src="`http://lorempixel.com/400/400/people/${message.imageNo}`" alt>
       </div>
       <div class="col m3 full-name">
         <p>
@@ -38,6 +38,7 @@ export default {
           firstName: "john",
           lastName: "sheperd",
           status: "development",
+          imageNo: chance.integer({ min: 1, max: 10 }),
           message:
             "Hi james, we need to do user testing by monday, please add me in slack group"
         },
@@ -45,6 +46,7 @@ export default {
           firstName: "john",
           lastName: "sheperd",
           status: "development",
+          imageNo: chance.integer({ min: 1, max: 10 }),
           message:
             "Hi james, we need to do user testing by monday, please add me in slack group"
         },
@@ -52,6 +54,7 @@ export default {
           firstName: "john",
           lastName: "sheperd",
           status: "development",
+          imageNo: chance.integer({ min: 1, max: 10 }),
           message:
             "Hi james, we need to do user testing by monday, please add me in slack group"
         },
@@ -59,6 +62,7 @@ export default {
           firstName: "john",
           lastName: "sheperd",
           status: "development",
+          imageNo: chance.integer({ min: 1, max: 10 }),
           message:
             "Hi james, we need to do user testing by monday, please add me in slack group"
         },
@@ -66,6 +70,7 @@ export default {
           firstName: "john",
           lastName: "sheperd",
           status: "development",
+          imageNo: chance.integer({ min: 1, max: 10 }),
           message:
             "Hi james, we need to do user testing by monday, please add me in slack group"
         }
@@ -73,7 +78,7 @@ export default {
     };
   },
   mounted() {
-    console.log(chance.string());
+    console.log(chance.integer({ min: 1, max: 10 }));
   }
 };
 </script>
