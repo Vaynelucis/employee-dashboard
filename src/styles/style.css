@@ -378,10 +378,12 @@
 }
 
 .main-body .main-body-list .individual-message .status p {
-  border: 1px solid #888;
+  border: 1px thin #888;
+  border-radius: 4px;
   text-align: center;
-  padding: 4px 0;
+  padding: 2px 0;
   background-color: #eaeaf3;
+  font-weight: 500;
 }
 
 .main-body .main-body-list .individual-message .message-intro p {
