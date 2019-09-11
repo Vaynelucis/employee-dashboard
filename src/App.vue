@@ -3,16 +3,19 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App "/> -->
     <Nav :currentUser="currentUser"/>
-    <div class="row body">
-      <div class="col">
-        <Sidebar :currentUser="currentUser"/>
-      </div>
-      <div class="col m9">
-        <MainBody/>
-        <a class="btn-floating btn-large waves-effect waves-light red fab">
-          <i class="material-icons">add</i>
-        </a>
-      </div>
+    <!-- <div class="row body"> -->
+    <div class="main-body-grid">
+      <!-- <div class="col"> -->
+      <!-- <div class="sidebar-container-grid"> -->
+      <Sidebar :currentUser="currentUser"/>
+      <!-- </div> -->
+      <!-- <div class="col m9"> -->
+      <!-- <div class="main-body-container-grid"> -->
+      <MainBody/>
+      <a class="btn-floating btn-large waves-effect waves-light red fab">
+        <i class="material-icons">add</i>
+      </a>
+      <!-- </div> -->
     </div>
   </div>
 </template>
