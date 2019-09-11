@@ -478,19 +478,32 @@
 }
 
 .main-body .main-body-list .individual-message {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  background-color: aqua;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto 120px 4fr 20px;
+      grid-template-columns: auto auto 120px 4fr 20px;
+  justify-items: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  background-color: aqua;
   margin: 0;
   margin-bottom: 1px;
   border: 1px solid rgba(161, 188, 230, 0.596);
+}
+
+.main-body .main-body-list .individual-message .checkbox {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main-body .main-body-list .individual-message .avater {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .main-body .main-body-list .individual-message img {
@@ -498,8 +511,26 @@
   width: 40px;
 }
 
+.main-body .main-body-list .individual-message .status-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-body .main-body-list .individual-message .full-name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .main-body .main-body-list .individual-message #menu {
   height: 20px;
+}
+
+.main-body .main-body-list .individual-message .status {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .main-body .main-body-list .individual-message .status p {
@@ -509,6 +540,12 @@
   padding: 2px 0;
   background-color: #eaeaf3;
   font-weight: 500;
+}
+
+.main-body .main-body-list .individual-message .message-intro {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
 }
 
 .main-body .main-body-list .individual-message .message-intro p {
