@@ -28,7 +28,7 @@
         <p>{{message.message}}</p>
       </div>
       <div class="col m1 menu-icon">
-        <img src="../../assets/menu.svg" alt>
+        <img id="menu" src="../../assets/menu.svg" alt>
       </div>
     </div>
   </div>

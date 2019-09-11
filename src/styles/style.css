@@ -311,6 +311,10 @@
   color: #555;
 }
 
+.main-body .main-body-call .join-call i {
+  margin: 0 8px;
+}
+
 .main-body .main-body-message {
   background-color: bisque;
   width: 100%;
@@ -375,6 +379,10 @@
 .main-body .main-body-list .individual-message img {
   height: auto;
   width: 40px;
+}
+
+.main-body .main-body-list .individual-message #menu {
+  height: 20px;
 }
 
 .main-body .main-body-list .individual-message .status p {

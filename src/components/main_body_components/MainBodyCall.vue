@@ -20,7 +20,7 @@
       <button>You're Invited</button>
     </div>
     <div class="col m2 join-call">
-      <span>icon</span>
+      <i class="material-icons">videocam</i>
       <p>Join Now</p>
     </div>
   </div>
