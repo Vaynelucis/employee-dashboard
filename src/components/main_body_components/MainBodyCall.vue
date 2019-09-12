@@ -3,11 +3,11 @@
   <div class="main-body-call">
     <!-- <div class="col m5 call-banner"> -->
     <div class="call-banner">
-      <img class="circle" src="http://lorempixel.com/400/400/people" alt>
+      <img class="circle" src="http://lorempixel.com/400/400/people" alt />
       <div>
         <h6>Sales Presentation - Live Group Call</h6>
         <p>adams_ka@gmail.com</p>
-        <p>started # mins ago</p>
+        <p class="time">started 3 mins ago</p>
       </div>
     </div>
     <div class="participants">
