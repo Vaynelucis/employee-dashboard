@@ -12,27 +12,39 @@
 
     <section class="sidebar-body">
       <div class="sidebar-item">
-        <span>icon</span>
+        <span>
+          <img src="../assets/layout.svg" alt>
+        </span>
         <p>Overview</p>
       </div>
       <div class="sidebar-item">
-        <span>icon</span>
+        <span>
+          <img src="../assets/bookmark.svg" alt>
+        </span>
         <p>Reservation</p>
       </div>
       <div class="sidebar-item">
-        <span>icon</span>
+        <span>
+          <img src="../assets/meeting.svg" alt>
+        </span>
         <p>Meeting</p>
       </div>
       <div class="sidebar-item">
-        <span>icon</span>
+        <span class="sidebar-icon">
+          <img src="../assets/team.svg" alt>
+        </span>
         <p>Customers</p>
       </div>
       <div class="sidebar-item">
-        <span>icon</span>
+        <span class="sidebar-icon">
+          <img src="../assets/ticket.svg" alt>
+        </span>
         <p>tickets</p>
       </div>
       <div class="sidebar-item">
-        <span>icon</span>
+        <span class="sidebar-icon">
+          <img src="../assets/chat.svg" alt>
+        </span>
         <p>Message</p>
       </div>
       <div class="sidebar-item">
