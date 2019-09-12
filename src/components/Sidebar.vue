@@ -48,11 +48,15 @@
         <p>Message</p>
       </div>
       <div class="sidebar-item">
-        <span>icon</span>
+        <span>
+          <img src="../assets/avatar.svg" alt>
+        </span>
         <p>Profile</p>
       </div>
       <div id="logout" class="sidebar-item">
-        <span>icon</span>
+        <span>
+          <img src="../assets/power.svg" alt>
+        </span>
         <p>Logout</p>
       </div>
     </section>
