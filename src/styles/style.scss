@@ -52,11 +52,12 @@ body {
     }
 
     #search-container {
-        border: 1px solid #eceff1;
+        // border: 1px solid #eceff1;
         padding: 0;
         // margin-left: 18px;
         display: flex;
         // justify-content: center;
+        // border: none;
         border-radius: 8px;
 
         ::placeholder {
@@ -373,7 +374,8 @@ body {
         // flex-wrap: wrap;
         // max-height: 120px;
         width: 100%;
-        background-color: aqua;
+        // background-color: aqua;
+        background-image: linear-gradient(to right, palevioletred, coral, goldenrod);
         padding: 12px 0;
         align-items: center;
         // vertical-align: middle;
