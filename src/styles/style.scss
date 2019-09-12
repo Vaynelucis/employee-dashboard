@@ -475,7 +475,7 @@ body {
     }
 
     .main-body-message {
-        background-color: bisque;
+        background-color: #fff;
         width: 100%;
 
         // padding: 12px 1.5rem;
@@ -579,15 +579,17 @@ body {
             align-items: center;
             gap: 20px;
             width: 100%;
-            background-color: aqua;
+            background-color: #fff;
             // align-items: center;
             // flex-wrap: wrap;
             margin: 0;
-            margin-bottom: 1px;
+            margin-bottom: 4px;
+            // border: none;
+            // border-bottom: 2px solid #fafafa;
             // overflow: hidden;
 
             // border-radius: 8px;
-            border: 1px solid rgba(161, 188, 230, 0.596);
+            // border: 1px solid rgba(161, 188, 230, 0.596);
 
             .checkbox {
                 flex: 1;

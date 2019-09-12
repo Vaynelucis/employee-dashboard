@@ -420,7 +420,7 @@ body {
 }
 
 .main-body .main-body-message {
-  background-color: bisque;
+  background-color: #fff;
   width: 100%;
   padding: 12px 2rem;
   border-radius: 8px;
@@ -497,10 +497,9 @@ body {
           align-items: center;
   gap: 20px;
   width: 100%;
-  background-color: aqua;
+  background-color: #fff;
   margin: 0;
-  margin-bottom: 1px;
-  border: 1px solid rgba(161, 188, 230, 0.596);
+  margin-bottom: 4px;
 }
 
 .main-body .main-body-list .individual-message .checkbox {
