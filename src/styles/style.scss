@@ -231,7 +231,7 @@ body {
 
             img {
                 // align-self: center;
-                width: 40px;
+                width: 36px;
                 height: auto;
                 // max-height: 100px;
                 border-radius: 4px;
@@ -252,7 +252,9 @@ body {
 
                 p {
                     margin: 0;
+                    margin-top: 8px;
                     font-size: 10px;
+
                 }
             }
         }
@@ -656,6 +658,8 @@ body {
         // display: flex;
         // flex-direction: column;
         width: 100%;
+
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
 
         .individual-message-container:hover {
             // .individual-message-container:checked {

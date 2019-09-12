@@ -211,7 +211,7 @@ body {
 }
 
 .sidebar header .sidebar-header img {
-  width: 40px;
+  width: 36px;
   height: auto;
   border-radius: 4px;
   margin: 0 12px;
@@ -235,6 +235,7 @@ body {
 
 .sidebar header .sidebar-header .sidebar-header-welcome p {
   margin: 0;
+  margin-top: 8px;
   font-size: 10px;
 }
 
@@ -587,6 +588,8 @@ body {
 
 .main-body .main-body-list {
   width: 100%;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .main-body .main-body-list .individual-message-container:hover {
