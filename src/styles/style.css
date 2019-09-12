@@ -263,6 +263,7 @@ body {
       grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   color: #969ba1;
+  line-height: 20px;
 }
 
 .sidebar .sidebar-body .sidebar-item span {
@@ -271,7 +272,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  width: 24px;
+  width: 20px;
   height: auto;
 }
 
