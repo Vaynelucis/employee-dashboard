@@ -12,6 +12,12 @@ body {
   background-color: #fafafa;
 }
 
+@media screen and (min-height: 812px) {
+  #app {
+    overflow: auto;
+  }
+}
+
 #app button,
 #app .button,
 #app .join-call {
@@ -19,6 +25,7 @@ body {
 }
 
 .my-nav {
+  max-height: 71px;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
   margin: 0;
@@ -147,6 +154,7 @@ body {
 }
 
 .main-body-grid {
+  height: calc(100vh - 111px);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 300px 1fr 100px;
@@ -472,9 +480,9 @@ body {
 }
 
 .main-body .main-body-message .message .message-icon {
-  background-color: rgba(161, 188, 230, 0.596);
+  background-color: rgba(242, 249, 255, 0.8);
   padding: 28px;
-  border: 1px solid #a1bbe6;
+  border: 1px solid rgba(161, 187, 230, 0.4);
   border-radius: 50%;
 }
 
