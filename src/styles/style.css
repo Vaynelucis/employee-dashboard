@@ -480,8 +480,8 @@
 .main-body .main-body-list .individual-message {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto 120px 2fr auto;
-      grid-template-columns: auto auto 120px 2fr auto;
+  -ms-grid-columns: auto auto 140px 2fr auto;
+      grid-template-columns: auto auto 140px 2fr auto;
   justify-items: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -519,6 +519,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  justify-self: start;
 }
 
 .main-body .main-body-list .individual-message .full-name {
@@ -545,7 +546,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 4px 8px;
-  margin: 0 16px;
+  margin: 0 20px;
   background-color: #eaeaf3;
   font-weight: 500;
   white-space: nowrap;
