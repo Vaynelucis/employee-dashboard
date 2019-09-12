@@ -582,6 +582,7 @@ body {
 
         .individual-message-container {
             width: 100%;
+            transition: width 0.5s, box-shadow .5s;
 
             .individual-message {
                 // display: flex;
