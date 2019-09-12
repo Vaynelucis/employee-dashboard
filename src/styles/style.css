@@ -460,12 +460,19 @@ body {
 .main-body .main-body-call .participants #more {
   margin-left: 12px;
   border: none;
+  margin: 0 auto;
 }
 
 .main-body .main-body-call .invitation {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-body .main-body-call .invitation button {

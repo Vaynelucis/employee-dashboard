@@ -513,11 +513,14 @@ body {
             #more {
                 margin-left: 12px;
                 border: none;
+                margin: 0 auto;
             }
         }
 
         .invitation {
             flex: 2;
+            display: flex;
+            justify-content: center;
 
             button {
                 border: 1px solid white;
