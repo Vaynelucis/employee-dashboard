@@ -264,6 +264,24 @@ body {
         // align-items: center;
         // text-align: center;
         // height: 1000px;
+        // li {
+
+
+        // }
+        // .sidebar-item:visited{
+        // color: red;
+        // }
+        .active {
+            background-color: #2290ff15;
+            border-left: 2px solid #2290ff;
+
+            p {
+
+                color: #2290ff;
+            }
+
+            // opacity: 0;
+        }
 
         .sidebar-item {
             // display: flex;
@@ -271,9 +289,12 @@ body {
             // justify-content: ;
             // text-align: start;
             // flex: 1;
+
             display: grid;
             grid-template-columns: 1fr 2fr;
             grid-gap: 20px;
+            color: #969ba1;
+
 
             // align
             span {
@@ -290,6 +311,8 @@ body {
             p {
                 align-self: center;
             }
+
+            // }
         }
 
         #logout {

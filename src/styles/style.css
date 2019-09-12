@@ -237,12 +237,22 @@ body {
   height: 100%;
 }
 
+.sidebar .sidebar-body .active {
+  background-color: #2290ff15;
+  border-left: 2px solid #2290ff;
+}
+
+.sidebar .sidebar-body .active p {
+  color: #2290ff;
+}
+
 .sidebar .sidebar-body .sidebar-item {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
+  color: #969ba1;
 }
 
 .sidebar .sidebar-body .sidebar-item span {
