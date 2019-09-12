@@ -2,43 +2,45 @@
   <!-- <div class="row main-body-list"> -->
   <div class="main-body-list">
     <!-- <div v-for="(message,index) in messages" :key="index" class="row individual-message"> -->
-    <div v-for="(message,index) in messages" :key="index" class="individual-message">
+    <div v-for="(message,index) in messages" :key="index" class="individual-message-container">
       <!-- <div class="col m1"> -->
-      <div class="checkbox">
-        <label>
-          <input type="checkbox">
-          <span></span>
-        </label>
-      </div>
-      <!-- <div class="col m1 avater"> -->
-      <div class="avater">
-        <img
-          class="circle"
-          :src="`http://lorempixel.com/400/400/people/${message.imageNo}`"
-          alt="Avater"
-        >
-      </div>
-      <!-- <div class="col m3 full-name"> -->
-      <div class="full-name">
-        <p>
-          <span>{{message.firstName}}</span>
-          <span>&nbsp</span>
-          <span>{{message.lastName}}</span>
-        </p>
-      </div>
-      <!-- <div class="col m2 status"> -->
-      <div class="status-container">
-        <div class="status">
-          <p>{{message.status}}</p>
+      <div class="individual-message">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox">
+            <span></span>
+          </label>
         </div>
-        <!-- <div class="col m4 message-intro"> -->
-        <div class="message-intro">
-          <p>{{message.message}}</p>
+        <!-- <div class="col m1 avater"> -->
+        <div class="avater">
+          <img
+            class="circle"
+            :src="`http://lorempixel.com/400/400/people/${message.imageNo}`"
+            alt="Avater"
+          >
         </div>
-      </div>
-      <!-- <div class="col m1 menu-icon"> -->
-      <div class="menu-icon">
-        <img id="menu" src="../../assets/menu.svg" alt>
+        <!-- <div class="col m3 full-name"> -->
+        <div class="full-name">
+          <p>
+            <span>{{message.firstName}}</span>
+            <span>&nbsp</span>
+            <span>{{message.lastName}}</span>
+          </p>
+        </div>
+        <!-- <div class="col m2 status"> -->
+        <div class="status-container">
+          <div class="status">
+            <p>{{message.status}}</p>
+          </div>
+          <!-- <div class="col m4 message-intro"> -->
+          <div class="message-intro">
+            <p>{{message.message}}</p>
+          </div>
+        </div>
+        <!-- <div class="col m1 menu-icon"> -->
+        <div class="menu-icon">
+          <img id="menu" src="../../assets/menu.svg" alt>
+        </div>
       </div>
     </div>
   </div>
