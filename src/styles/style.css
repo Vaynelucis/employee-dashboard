@@ -480,8 +480,8 @@
 .main-body .main-body-list .individual-message {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto 120px 4fr 20px;
-      grid-template-columns: auto auto 120px 4fr 20px;
+  -ms-grid-columns: auto auto 120px 2fr auto;
+      grid-template-columns: auto auto 120px 2fr auto;
   justify-items: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -498,6 +498,7 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  margin-left: 20px;
 }
 
 .main-body .main-body-list .individual-message .avater {
@@ -515,6 +516,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-body .main-body-list .individual-message .full-name {
@@ -537,9 +541,16 @@
   border: 1px thin #888;
   border-radius: 4px;
   text-align: center;
-  padding: 2px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px 8px;
+  margin: 0 16px;
   background-color: #eaeaf3;
   font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .main-body .main-body-list .individual-message .message-intro {
