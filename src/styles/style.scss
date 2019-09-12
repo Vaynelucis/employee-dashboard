@@ -620,7 +620,13 @@ body {
             }
 
             div {
-                margin: 0 4px;
+                margin: 0 12px;
+
+                span {
+                    color: #424c56;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
             }
 
             h6 {
@@ -734,6 +740,9 @@ body {
 
                             // margin: 0 auto;
                             // max-width: 400px;
+                            color:#848994;
+                            font-weight: 500;
+                            font-size: 12px;
                             max-width: 31rem;
                             // max-width: 20rem;
                             // width: inherit;
@@ -748,6 +757,8 @@ body {
 
                 .full-name {
                     flex: 1;
+                    font-weight: 900;
+                    color: black;
                 }
 
                 #menu {
@@ -764,6 +775,7 @@ body {
                     // flex-wrap: nowrap;
 
                     p {
+                        // font-weight: 700;
                         border: 1px thin #888;
                         border-radius: 4px;
                         text-align: center;
@@ -772,7 +784,8 @@ body {
                         padding: 4px 8px;
                         margin: 0 16px;
                         background-color: #eaeaf3;
-                        font-weight: 500;
+                        font-size: 12px;
+                        font-weight: 700;
                         // max-width: fit-content;
                         white-space: nowrap;
                         overflow: hidden;
