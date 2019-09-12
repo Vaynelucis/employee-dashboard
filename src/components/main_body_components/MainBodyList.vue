@@ -7,7 +7,7 @@
       <div class="individual-message">
         <div class="checkbox">
           <label>
-            <input type="checkbox" >
+            <input type="checkbox" />
             <span></span>
           </label>
         </div>
@@ -17,7 +17,7 @@
             class="circle"
             :src="`http://lorempixel.com/400/400/people/${message.imageNo}`"
             alt="Avater"
-          >
+          />
         </div>
         <!-- <div class="col m3 full-name"> -->
         <div class="full-name">
@@ -39,7 +39,7 @@
         </div>
         <!-- <div class="col m1 menu-icon"> -->
         <div class="menu-icon">
-          <img id="menu" src="../../assets/menu.svg" alt>
+          <img id="menu" src="../../assets/menu.svg" alt />
         </div>
       </div>
     </div>
@@ -50,7 +50,6 @@
 export default {
   data() {
     return {
-      
       messages: [
         {
           firstName: chance.first(),
