@@ -320,11 +320,29 @@ body {
   max-width: 50px;
 }
 
+.main-body .main-body-nav .all-btn button {
+  border-radius: 4px;
+}
+
+.main-body .main-body-nav .all-btn button:focus {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
 .main-body .main-body-nav .button {
   height: 36px;
   border: 0.5px solid #999;
+  background-color: white;
   padding: 0 20px;
   max-width: 100px;
+}
+
+.main-body .main-body-nav .button:focus {
+  background-color: #2290ff;
+  color: white;
+  border: none;
+  outline: none;
 }
 
 .main-body .main-body-nav .button-group {
@@ -527,10 +545,10 @@ body {
 
 .main-body .main-body-list .individual-message-container {
   width: 100%;
-  -webkit-transition: width 0.5s, -webkit-box-shadow .5s;
-  transition: width 0.5s, -webkit-box-shadow .5s;
-  transition: width 0.5s, box-shadow .5s;
-  transition: width 0.5s, box-shadow .5s, -webkit-box-shadow .5s;
+  -webkit-transition: width 0.5s, -webkit-box-shadow 0.5s;
+  transition: width 0.5s, -webkit-box-shadow 0.5s;
+  transition: width 0.5s, box-shadow 0.5s;
+  transition: width 0.5s, box-shadow 0.5s, -webkit-box-shadow 0.5s;
 }
 
 .main-body .main-body-list .individual-message-container .individual-message {
@@ -547,7 +565,7 @@ body {
   width: 100%;
   background-color: #fff;
   margin: 0;
-  margin-bottom: 4px;
+  border-bottom: 4px solid #fafafa;
 }
 
 .main-body .main-body-list .individual-message-container .individual-message .checkbox {
