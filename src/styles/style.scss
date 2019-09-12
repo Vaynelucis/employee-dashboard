@@ -200,19 +200,28 @@ body {
     // height: 100%;
 
     header {
+
         // flex: 1;
+        .pagemark img {
+            width: 16px;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 12px;
+        }
 
         background-color: white;
 
         width: 100%;
         // box-shadow: 2px -1px 3px #bbb;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
-        padding: 10px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07),
+        0 2px 4px rgba(0, 0, 0, 0.05);
+        padding: 20px 10px;
 
         .sidebar-header {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             height: 40px;
             // background-color: aqua;
             // flex: 1;
@@ -224,6 +233,7 @@ body {
                 width: 40px;
                 height: auto;
                 // max-height: 100px;
+                border-radius: 4px;
                 margin: 0 12px;
             }
 

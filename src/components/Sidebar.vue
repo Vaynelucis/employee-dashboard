@@ -1,6 +1,9 @@
 <template>
   <section class="sidebar">
     <header>
+      <span class="pagemark">
+        <img src="../assets/pagemark.svg" alt />
+      </span>
       <div class="sidebar-header">
         <img class :src="`http://lorempixel.com/400/400/people/${currentUser.avaterID}`" alt />
         <div class="sidebar-header-welcome">
