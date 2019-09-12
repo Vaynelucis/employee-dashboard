@@ -20,6 +20,7 @@ body {
   display: grid;
   -ms-grid-columns: 300px 1fr 100px;
       grid-template-columns: 300px 1fr 100px;
+  background-color: white;
 }
 
 .my-nav .nav-grid-container {
@@ -35,6 +36,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  color: #444;
 }
 
 .my-nav #search-container {
@@ -43,6 +45,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   border-radius: 8px;
+  background-color: #fff;
   /* margin: 20 0px; */
 }
 
