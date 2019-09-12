@@ -12,6 +12,7 @@
 body {
     // margin: 20px;
     margin: 0;
+
     // height: 100vh !important;
 }
 
@@ -19,12 +20,18 @@ body {
     // .main-body-grid {
     // background-color: #eaeaf3;
     background-color: #fafafa;
+
     // background-color: red;
     // margin: 0;
     // display: flex;
     // height: auto !important;
     // flex: 1;
     // align-: stretch !important;
+    button,
+    .button,
+    .join-call {
+        cursor: pointer;
+    }
 
 }
 
