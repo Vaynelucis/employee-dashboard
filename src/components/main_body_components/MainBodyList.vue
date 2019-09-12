@@ -7,7 +7,7 @@
       <div class="individual-message">
         <div class="checkbox">
           <label>
-            <input :class="myClass" type="checkbox" value="picked" v-model="myClass">
+            <input type="checkbox" >
             <span></span>
           </label>
         </div>
@@ -50,7 +50,7 @@
 export default {
   data() {
     return {
-      myClass:[],
+      
       messages: [
         {
           firstName: chance.first(),
