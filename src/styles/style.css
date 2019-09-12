@@ -37,6 +37,7 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   color: #333;
+  letter-spacing: 4px;
 }
 
 .my-nav #search-container {
