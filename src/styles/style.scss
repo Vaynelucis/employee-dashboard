@@ -81,8 +81,17 @@ body {
             padding-left: 10px;
             border: none;
             border-radius: 6px 0 0 6px;
+
+
             // width: 90%;
             // height: 100%;
+        }
+
+        input:focus {
+            outline-color: rebeccapurple;
+            outline-width: 0.5px;
+            outline-offset: 0.5px;
+            // outline: none;
         }
 
         // padding: 12px 20px;

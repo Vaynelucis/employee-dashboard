@@ -75,6 +75,12 @@ body {
   border-radius: 6px 0 0 6px;
 }
 
+.my-nav #search-container input:focus {
+  outline-color: rebeccapurple;
+  outline-width: 0.5px;
+  outline-offset: 0.5px;
+}
+
 .my-nav #search-btn {
   -webkit-box-flex: 0.3;
       -ms-flex: 0.3;
