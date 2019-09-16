@@ -1,10 +1,9 @@
 <template>
   <div class="main-body">
-    <!-- <p>blahh</p> -->
-    <MainBodyNav/>
-    <MainBodyCall/>
-    <MainBodyMessage/>
-    <MainBodyList/>
+    <MainBodyNav />
+    <MainBodyCall />
+    <MainBodyMessage />
+    <MainBodyList />
   </div>
 </template>
 
