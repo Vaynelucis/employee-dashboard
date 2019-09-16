@@ -1,7 +1,6 @@
 <template>
   <div class="main-body-list">
     <div v-for="(message,index) in messages" :key="index" class="individual-message-container">
-      <!-- <div class="col m1"> -->
       <div class="individual-message">
         <div class="checkbox">
           <label>
@@ -9,7 +8,6 @@
             <span></span>
           </label>
         </div>
-        <!-- <div class="col m1 avater"> -->
         <div class="avater">
           <img
             class="circle"
@@ -17,7 +15,6 @@
             alt="Avater"
           />
         </div>
-        <!-- <div class="col m3 full-name"> -->
         <div class="full-name">
           <p>
             <span>{{message.firstName}}</span>
@@ -25,17 +22,14 @@
             <span>{{message.lastName}}</span>
           </p>
         </div>
-        <!-- <div class="col m2 status"> -->
         <div class="status-container">
           <div class="status">
             <p>{{message.status}}</p>
           </div>
-          <!-- <div class="col m4 message-intro"> -->
           <div class="message-intro">
             <p>{{message.message}}</p>
           </div>
         </div>
-        <!-- <div class="col m1 menu-icon"> -->
         <div class="menu-icon">
           <img id="menu" src="../../assets/menu.svg" alt />
         </div>
@@ -116,21 +110,7 @@ export default {
       ]
     };
   },
-  methods: {
-    // check: function() {
-    //   console.log(this.messages[0].loaded);
-    //   this.messages[0].loaded = true;
-    //   console.log(this.messages[0].loaded);
-    // }
-  },
-  mounted() {
-    // console.log(chance.integer({ min: 1, max: 10 }));
-    // this.messages.map((message, index) => {
-    //   fetch("`http://lorempixel.com/400/400/people/${index + 1}`").then(res => {
-    //     // console.log(res);
-    //     message.image = res;
-    //   });
-    // });
-  }
+  methods: {},
+  mounted() {}
 };
 </script>
