@@ -1,7 +1,5 @@
 <template>
-  <!-- <div class="row main-body-list"> -->
   <div class="main-body-list">
-    <!-- <div v-for="(message,index) in messages" :key="index" class="row individual-message"> -->
     <div v-for="(message,index) in messages" :key="index" class="individual-message-container">
       <!-- <div class="col m1"> -->
       <div class="individual-message">
